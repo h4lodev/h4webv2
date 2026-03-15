@@ -14,16 +14,16 @@ function App() {
       {/* test layer */}
       <main style={{ position: 'relative', zIndex: 10, padding: '2rem' }}>
         <h1 style={{ color: 'white', padding: '2rem' }}>Content</h1>
-        <p style={{ color: 'rgba(255,255,255,0.8)',fontSize: '56px' }}>Hi, I'm.</p>
+        <p style={{ color: 'rgba(255,255,255,0.8)',fontSize: '56px', padding: "3rem" }}>Hi, I'm.</p>
         <GradientText
           colors={["#F4C000","#F49400"]}
           animationSpeed={6}
           showBorder={false}
-          className="text-[150px] overflow-visible"
+          className="text overflow-visible"
         >
-          TEST
+          H4LO
         </GradientText>
-        <p style={{ color: 'rgba(255,255,255,0.8)',fontSize: '56px' }}>And I make things.</p>
+        <p style={{ color: 'rgba(255,255,255,0.8)',fontSize: '56px', padding: '3rem'}}>And I make things.</p>
       </main>
     </div>
   );
