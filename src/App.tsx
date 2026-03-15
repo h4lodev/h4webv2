@@ -4,6 +4,7 @@ import GradientText from './components/GradientText.tsx'
 import Header from './Header.tsx'
 import Background from './Background.tsx'
 import Footer from './Footer.tsx'
+import FastfetchDisplay from './FastfetchDisplay'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <div style={{ position: 'relative', zIndex: 10 }}>
         <Header />
 
-        <section id="home" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
+        <section id="intro" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
             <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '150px', margin: '0.5rem 0' }}>Hi, I'm</p>
             <GradientText
@@ -42,7 +43,11 @@ function App() {
         </section>
 
         <section id="about" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: 'white', fontSize: '2rem' }}>WHO AM I</p>
+          <div className="min-h-screen p-8 text-white">
+            <div className="max-w-4xl mx-auto">
+              <FastfetchDisplay />
+            </div>
+          </div>
         </section>
 
         <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
