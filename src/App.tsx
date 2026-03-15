@@ -42,18 +42,21 @@ function App() {
         </section>
 
         <section id="about" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: 'white', fontSize: '2rem' }}>About section</p>
+          <p style={{ color: 'white', fontSize: '2rem' }}>WHO AM I</p>
         </section>
 
         <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: 'white', fontSize: '2rem' }}>Projects section</p>
+          <p style={{ color: 'white', fontSize: '2rem' }}>FUCKTON OF PROJECT CARDS</p>
         </section>
 
-        <section id="code" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: 'white', fontSize: '2rem' }}>Code section</p>
+        <section id="code" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', paddingTop: '2rem' }}>
+          <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <p style={{ color: 'white', fontSize: '2rem' }}>LINK TO THE REPO</p>
+          </div>
+          <Footer />
         </section>
 
-        <Footer />
+        
       </div>
 
     </div>
