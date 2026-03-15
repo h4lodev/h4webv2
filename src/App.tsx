@@ -1,51 +1,29 @@
 import { useState } from 'react'
 import './App.css'
-import Dither from "./components/Dither";
-import PillNav from "./components/PillNav";
-import logo from './assets/react.svg'
+import GradientText from './components/GradientText.tsx'
+import Header from './Header.tsx'
+import Background from './Background.tsx'
 
 function App() {
   return (
-    
-    <div className="absolute min-h-screen w-full bg-black">
-      <PillNav
-        logo={logo}
-        logoAlt="Company Logo"
-        items={[
-          { label: 'Home', href: '/' },
-          { label: 'About', href: '/about' },
-          { label: 'Services', href: '/services' },
-          { label: 'Contact', href: '/contact' }
-        ]}
-        activeHref="/"
-        className="custom-nav"
-        ease="power2.easeOut"
-        baseColor="#000000"
-        pillColor="#ffffff"
-        hoveredPillTextColor="#ffffff"
-        pillTextColor="#000000"
-        initialLoadAnimation={false}
-      />
-      {/* Background Layer */}
-      <div className="fixed inset-0 z-1 h-screen w-screen">
-        <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
-          <Dither
-            waveColor={[0.5,0.5,0.5]}
-            disableAnimation={false}
-            enableMouseInteraction
-            mouseRadius={0.3}
-            colorNum={4}
-            waveAmplitude={0.3}
-            waveFrequency={3}
-            waveSpeed={0.05}
-          />
-        </div>
-      </div>
+    <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', minHeight: '100%' }}>
 
-    {/* Content Layer */}
-      <main className="relative z-2 min-h-screen w-full p-8">
-        <h1 className="text-4xl font-bold text-white">Content</h1>
-        <p className="text-white/80">This should be above the dither.</p>
+      <Background />
+      <Header />
+
+      {/* test layer */}
+      <main style={{ position: 'relative', zIndex: 10, padding: '2rem' }}>
+        <h1 style={{ color: 'white', padding: '2rem' }}>Content</h1>
+        <p style={{ color: 'rgba(255,255,255,0.8)',fontSize: '56px' }}>Hi, I'm.</p>
+        <GradientText
+          colors={["#F4C000","#F49400"]}
+          animationSpeed={6}
+          showBorder={false}
+          className="text-[150px] overflow-visible"
+        >
+          TEST
+        </GradientText>
+        <p style={{ color: 'rgba(255,255,255,0.8)',fontSize: '56px' }}>And I make things.</p>
       </main>
     </div>
   );
