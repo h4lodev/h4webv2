@@ -19,24 +19,24 @@ function App() {
         
         <main style={{ padding: '2rem', flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
-            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '56px', margin: '0.5rem 0' }}>Hi, I'm</p>
+            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '150px', margin: '0.5rem 0' }}>Hi, I'm</p>
             <GradientText
-              colors={["#F4C000","#F49400"]}
+              colors={["#F4C000","#ff9900"]}
               animationSpeed={6}
               showBorder={false}
-              className="text-[30px] overflow-visible justify-center"
+              className="text-[150px] overflow-visible justify-center"
             >
               H4LO
             </GradientText>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
-            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '56px', margin: '0.5rem 0' }}>And I make</p>
+            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '150px', margin: '0.5rem 0' }}>And I make</p>
             <GradientText
               colors={["#F4C000","#F49400"]}
               animationSpeed={6}
               showBorder={false}
-              className="text-[30px] overflow-visible justify-center"
+              className="text-[150px] overflow-visible justify-center"
             >
               THINGS.
             </GradientText>
