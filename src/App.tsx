@@ -7,17 +7,16 @@ import Footer from './Footer.tsx'
 
 function App() {
   return (
-    <div style={{ position: 'relative', width: '100%', minHeight: '100vh' }}>
+    <div style={{ position: 'relative', width: '100%', height: '100vh', overflowY: 'scroll', scrollSnapType: 'y mandatory', scrollBehavior: 'smooth' }}>
 
       <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
         <Background />
       </div>
 
-      <div style={{ position: 'relative', zIndex: 10, display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-        
+      <div style={{ position: 'relative', zIndex: 10 }}>
         <Header />
-        
-        <main style={{ padding: '2rem', flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
+
+        <section id="home" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
             <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '150px', margin: '0.5rem 0' }}>Hi, I'm</p>
             <GradientText
@@ -29,7 +28,6 @@ function App() {
               H4LO
             </GradientText>
           </div>
-
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
             <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '150px', margin: '0.5rem 0' }}>And I make</p>
             <GradientText
@@ -38,12 +36,26 @@ function App() {
               showBorder={false}
               className="text-[150px] overflow-visible justify-center"
             >
-              THINGS.
+              THINGS
             </GradientText>
           </div>
-        </main>
+        </section>
+
+        <section id="about" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <p style={{ color: 'white', fontSize: '2rem' }}>About section</p>
+        </section>
+
+        <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <p style={{ color: 'white', fontSize: '2rem' }}>Projects section</p>
+        </section>
+
+        <section id="code" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <p style={{ color: 'white', fontSize: '2rem' }}>Code section</p>
+        </section>
+
         <Footer />
       </div>
+
     </div>
   );
 }
