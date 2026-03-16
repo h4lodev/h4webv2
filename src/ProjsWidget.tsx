@@ -22,12 +22,14 @@ function ProjsWidget(){
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
-                        <img
-                            src={unlabeled}
-                            alt="logo"
-                            className="h-10 w-10" 
-                        />
-                        <p style={{ color: 'white', fontSize: '2rem' }}>NONAME</p>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
+                            <img
+                                src={unlabeled}
+                                alt="unlabeled1"
+                                className="h-50 w-50 rounded-2xl" 
+                            />
+                            <p style={{ color: 'white', fontSize: '2rem' }}>NONAME</p>
+                        </div>
                     </GlassSurface>
 
                     <GlassSurface 
@@ -36,12 +38,14 @@ function ProjsWidget(){
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
-                        <img
-                            src={unlabeled}
-                            alt="logo"
-                            className="h-10 w-10" 
-                        />
-                        <p style={{ color: 'white', fontSize: '2rem' }}>NONAME</p>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
+                            <img
+                                src={unlabeled}
+                                alt="unlabeled2"
+                                className="h-50 w-50 rounded-2xl" 
+                            />
+                            <p style={{ color: 'white', fontSize: '2rem' }}>NONAME</p>
+                        </div>
                     </GlassSurface>
                     
                     <GlassSurface 
@@ -50,12 +54,14 @@ function ProjsWidget(){
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
-                        <img
-                            src={knewher}
-                            alt="logo"
-                            className="h-10 w-10" 
-                        />
-                        <p style={{ color: 'white', fontSize: '2rem' }}>SPOTIFY</p>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
+                            <img
+                                src={knewher}
+                                alt="knewher"
+                                className="h-50 w-50 rounded-2xl" 
+                            />
+                            <p style={{ color: 'white', fontSize: '2rem' }}>Spotify</p>
+                        </div>
                     </GlassSurface>
 
                     <GlassSurface 
@@ -64,12 +70,14 @@ function ProjsWidget(){
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
-                        <img
-                            src={hv}
-                            alt="logo"
-                            className="h-10 w-10" 
-                        />
-                        <p style={{ color: 'white', fontSize: '2rem' }}>HV</p>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
+                            <img
+                                src={hv}
+                                alt="voidheart"
+                                className="h-50 w-50 rounded-2xl" 
+                            />
+                            <p style={{ color: 'white', fontSize: '2rem' }}>Voidheart</p>
+                        </div>
                     </GlassSurface>
 
                     <GlassSurface 
@@ -78,12 +86,14 @@ function ProjsWidget(){
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
-                        <img
-                            src={ruination}
-                            alt="logo"
-                            className="h-10 w-10" 
-                        />
-                        <p style={{ color: 'white', fontSize: '2rem' }}>ROBLOX (DEPRECATED)</p>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
+                            <img
+                                src={ruination}
+                                alt="robloxgame"
+                                className="h-50 w-50 rounded-2xl" 
+                            />
+                            <p style={{ color: 'white', fontSize: '2rem' }}>Roblox (old)</p>
+                        </div>
                     </GlassSurface>
                     
                     <GlassSurface 
@@ -92,12 +102,14 @@ function ProjsWidget(){
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
-                        <img
-                            src={eyes}
-                            alt="logo"
-                            className="h-10 w-10" 
-                        />
-                        <p style={{ color: 'white', fontSize: '2rem' }}>EYES</p>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
+                            <img
+                                src={eyes}
+                                alt="vseyes"
+                                className="h-50 w-50 rounded-2xl" 
+                            />
+                            <p style={{ color: 'white', fontSize: '2rem' }}>Eyes</p>
+                        </div>
                     </GlassSurface>
                 </div>
             </GlassSurface>
