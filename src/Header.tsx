@@ -20,7 +20,7 @@ function Header() {
         <a href="#home" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ home ]</a>
         <a href="#about" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ about ]</a>
         <a href="#projs" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ projs ]</a>
-        <a href="#code" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ code ]</a>
+        <a href="https://github.com/h4lodev/h4webv2" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ code ]</a>
       </GlassSurface>
     </div>
   )

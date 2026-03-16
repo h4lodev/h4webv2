@@ -17,7 +17,7 @@ function App() {
       <div style={{ position: 'relative', zIndex: 10 }}>
         <Header />
 
-        <section id="intro" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
+        <section id="home" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
             <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '150px', margin: '0.5rem 0' }}>Hi, I'm</p>
             <GradientText
@@ -37,7 +37,7 @@ function App() {
               showBorder={false}
               className="text-[150px] overflow-visible justify-center"
             >
-              THINGS
+              Things.
             </GradientText>
           </div>
         </section>
@@ -51,16 +51,10 @@ function App() {
         </section>
 
         <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: 'white', fontSize: '2rem' }}>FUCKTON OF PROJECT CARDS</p>
+          <p style={{ color: 'white', fontSize: '2rem' }}>PROJECT CARDS GO HERE WHEN READY</p>
         </section>
 
-        <section id="code" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', paddingTop: '2rem' }}>
-          <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <p style={{ color: 'white', fontSize: '2rem' }}>LINK TO THE REPO</p>
-          </div>
           <Footer />
-        </section>
-
         
       </div>
 

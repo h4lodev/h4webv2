@@ -15,19 +15,22 @@ const FastfetchDisplay: React.FC = () => {
     <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
         <p className="">
             <GlassSurface 
-              width={1080} 
-              height={440}
+              width={1100} 
+              height={480}
               borderRadius={50}
               style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-              className="header"
+              className="fastfetch"
             >
+            <div>
+
+            </div>
+
             <div className="flex flex-col justify-center items-center min-h-screen w-full"> 
-                <pre className="text-left text-green-400 p-6 rounded-lg font-mono text-sm shadow-2xl overflow-x-auto border border-gray-800">
+                <pre className="text-left text-green-400 p-6 rounded-lg font-mono text-sm shadow-2xl overflow-x-auto ">
                 {content}
                 </pre>
             </div>
             </GlassSurface>
-
         </p>
     </div>
     );
