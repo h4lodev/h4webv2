@@ -1,5 +1,6 @@
 import React from 'react';
 import GlassSurface from './components/GlassSurface'
+import catppuccin from './assets/img/catppucin.png'
 
 const Footer: React.FC = () => {
   return (
@@ -15,7 +16,16 @@ const Footer: React.FC = () => {
             >
               &copy; {new Date().getFullYear()} H4LO Technologies. All rights reserved.
               <a href="https://ctp-webr.ing/h4lo/previous">&larr;</a>
-              <a href="https://ctp-webr.ing/">W</a>
+
+              <a
+                href="https://ctp-webr.ing/"
+                target="_blank"
+                rel="noreferrer"
+                className="h-6 w-10 margin-10 pl-2 pr-2" 
+              >
+                <img id="catppuccin" alt="Catppuccin Webring" src={catppuccin}/>
+              </a>
+
               <a href="https://ctp-webr.ing/h4lo/next">&rarr;</a>
             </GlassSurface>
 

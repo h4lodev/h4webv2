@@ -5,7 +5,7 @@ function Background() {
   return (
       <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
         <Dither
-          waveColor={[0.4, 0.4, 0.4]}
+          waveColor={[0.34, 0.34, 0.34]}
           disableAnimation={false}
           enableMouseInteraction
           mouseRadius={0.3}

@@ -4,7 +4,6 @@ import Header from './Header.tsx'
 import Background from './Background.tsx'
 import Footer from './Footer.tsx'
 import FastfetchDisplay from './FastfetchDisplay'
-import GlassSurface from './components/GlassSurface'
 import ProjsWidget from './ProjsWidget.tsx'
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
 
         <section id="home" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
-            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '150px', margin: '0.5rem 0' }}>Hi, I'm</p>
+            <p style={{ color: 'rgb(240,240,240)', fontSize: '150px', margin: '0.5rem 0' }}>Hi, I'm</p>
             <GradientText
               colors={["#F4C000","#ff9900"]}
               animationSpeed={6}
@@ -31,7 +30,7 @@ function App() {
             </GradientText>
           </div>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
-            <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '150px', margin: '0.5rem 0' }}>And I make</p>
+            <p style={{ color: 'rgb(240,240,240)', fontSize: '150px', margin: '0.5rem 0' }}>And I make</p>
             <GradientText
               colors={["#F4C000","#F49400"]}
               animationSpeed={6}
@@ -51,7 +50,7 @@ function App() {
           </div>
         </section>
 
-        <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', paddingTop: '2rem' }}>
+        <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', paddingTop: '2rem' }}>
           <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <ProjsWidget />
           </div>

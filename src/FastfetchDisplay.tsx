@@ -26,7 +26,7 @@ const FastfetchDisplay: React.FC = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center min-h-screen w-full"> 
-                <pre className="text-left text-green-400 p-6 rounded-lg font-mono text-sm shadow-2xl overflow-x-auto ">
+                <pre className="text-left text-orange-400 p-6 rounded-lg font-mono text-sm shadow-2xl overflow-x-auto ">
                 {content}
                 </pre>
             </div>
