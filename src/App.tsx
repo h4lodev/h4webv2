@@ -4,6 +4,7 @@ import Header from './Header.tsx'
 import Background from './Background.tsx'
 import Footer from './Footer.tsx'
 import FastfetchDisplay from './FastfetchDisplay'
+import GlassSurface from './components/GlassSurface'
 
 function App() {
   return (
@@ -51,7 +52,16 @@ function App() {
 
         <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', paddingTop: '2rem' }}>
           <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <p style={{ color: 'white', fontSize: '2rem' }}>PROJECT CARDS GO HERE WHEN READY</p>
+            <GlassSurface 
+              width={1100} 
+              height={480}
+              borderRadius={50}
+              style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+              className="fastfetch"
+            >
+              <p style={{ color: 'white', fontSize: '2rem' }}>PROJECT CARDS GO HERE WHEN READY</p>
+            </GlassSurface>
+
           </div>
           <Footer />
         </section>
