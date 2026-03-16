@@ -5,7 +5,7 @@ import catppuccin from './assets/img/catppucin.png'
 const Footer: React.FC = () => {
   return (
     <footer className="text-white mt-10">
-      <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', paddingBottom: '1rem' }}>
           <p className="">
             <GlassSurface 
               width={540} 
