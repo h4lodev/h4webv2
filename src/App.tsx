@@ -49,11 +49,12 @@ function App() {
           </div>
         </section>
 
-        <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: 'white', fontSize: '2rem' }}>PROJECT CARDS GO HERE WHEN READY</p>
-        </section>
-
+        <section id="projs" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'space-between', paddingTop: '2rem' }}>
+          <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <p style={{ color: 'white', fontSize: '2rem' }}>PROJECT CARDS GO HERE WHEN READY</p>
+          </div>
           <Footer />
+        </section>
         
       </div>
 
