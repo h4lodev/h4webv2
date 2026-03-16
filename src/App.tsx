@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import GradientText from './components/GradientText.tsx'
 import Header from './Header.tsx'
