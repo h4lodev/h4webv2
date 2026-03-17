@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', paddingBottom: '1rem' }}>
           <p className="">
             <GlassSurface 
-              width={540} 
+              width="auto" 
               height={50}
               borderRadius={50}
               style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}

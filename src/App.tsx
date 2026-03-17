@@ -18,24 +18,24 @@ function App() {
         <Header />
 
         <section id="home" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
-          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
-            <p style={{ color: 'rgb(240,240,240)', fontSize: '150px', margin: '0.5rem 0' }}>Hi, I'm</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
+            <p style={{ color: 'rgb(240,240,240)', fontSize: '130px', margin: '0.5rem 0' }}>Hi, I'm</p>
             <GradientText
               colors={["#F4C000","#ff9900"]}
               animationSpeed={6}
               showBorder={false}
-              className="text-[150px] overflow-visible justify-center"
+              className="text-[130px] overflow-visible justify-center"
             >
               H4LO
             </GradientText>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
-            <p style={{ color: 'rgb(240,240,240)', fontSize: '150px', margin: '0.5rem 0' }}>And I make</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
+            <p style={{ color: 'rgb(240,240,240)', fontSize: '130px', margin: '0.5rem 0' }}>And I make</p>
             <GradientText
               colors={["#F4C000","#F49400"]}
               animationSpeed={6}
               showBorder={false}
-              className="text-[150px] overflow-visible justify-center"
+              className="text-[130px] overflow-visible justify-center"
             >
               Things.
             </GradientText>
