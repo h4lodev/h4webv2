@@ -6,7 +6,7 @@ function Header() {
   return (
     <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', paddingTop: '1rem' }}>
       <GlassSurface 
-        width={440} 
+        width={450} 
         height={50}
         borderRadius={50}
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
