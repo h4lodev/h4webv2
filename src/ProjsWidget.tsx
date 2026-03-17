@@ -9,10 +9,10 @@ function ProjsWidget(){
     return (
         <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <GlassSurface 
-                width={1000} 
+                width="auto " 
                 height={840}
                 borderRadius={50}
-                style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: '1000px'  }}
                 className="projswidget1"
             >
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
