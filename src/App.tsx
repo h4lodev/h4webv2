@@ -1,7 +1,7 @@
 import './App.css'
 import GradientText from './components/GradientText.tsx'
 import Header from './Header.tsx'
-import Background from './Background.tsx'
+import Background2 from './Background2.tsx'
 import Footer from './Footer.tsx'
 import FastfetchDisplay from './FastfetchDisplay'
 import ProjsWidget from './ProjsWidget.tsx'
@@ -11,7 +11,7 @@ function App() {
     <div style={{ position: 'relative', width: '100%', height: '100vh', overflowY: 'scroll', scrollSnapType: 'y mandatory', scrollBehavior: 'smooth' }}>
 
       <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
-        <Background />
+        <Background2 />
       </div>
 
       <div style={{ position: 'relative', zIndex: 10 }}>
