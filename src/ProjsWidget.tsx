@@ -9,15 +9,15 @@ function ProjsWidget(){
     return (
         <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <GlassSurface 
-                width="auto" 
-                height="auto"
+                width={1000} 
+                height={840}
                 borderRadius={50}
                 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-                className="max-h-[1120px] overflow-y-auto bg-gray-100 p-4 shadow-md"
+                className="projswidget1"
             >
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
                     <GlassSurface 
-                        width={300}
+                        width={300} 
                         height={380}
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -33,7 +33,7 @@ function ProjsWidget(){
                     </GlassSurface>
 
                     <GlassSurface 
-                        width={300}
+                        width={300} 
                         height={380}
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -49,7 +49,7 @@ function ProjsWidget(){
                     </GlassSurface>
                     
                     <GlassSurface 
-                        width={300}
+                        width={300} 
                         height={380}
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -65,7 +65,7 @@ function ProjsWidget(){
                     </GlassSurface>
 
                     <GlassSurface 
-                        width={300}
+                        width={300} 
                         height={380}
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -81,7 +81,7 @@ function ProjsWidget(){
                     </GlassSurface>
 
                     <GlassSurface 
-                        width={300}
+                        width={300} 
                         height={380}
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -95,9 +95,9 @@ function ProjsWidget(){
                             <p style={{ color: 'white', fontSize: '2rem' }}>Roblox (old)</p>
                         </div>
                     </GlassSurface>
-
+                    
                     <GlassSurface 
-                        width={300}
+                        width={300} 
                         height={380}
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
