@@ -2,6 +2,7 @@ import React from 'react';
 import GlassSurface from './components/GlassSurface'
 import catppuccin from './assets/img/catppucin.png'
 import ufp from './assets/img/ultrafastparrot.gif'
+import noai from './assets/img/noai.png'
 
 const WebringsMenu: React.FC = () => {
   return (
@@ -32,6 +33,14 @@ const WebringsMenu: React.FC = () => {
               <a href="https://ultrafastparrot.net/next/h4lo">&rarr;</a>
             </div>
 
+            {/* noai webring set */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <a href="https://baccyflap.com/noai/?prv&s=ayh">&larr;</a>
+              <a href="https://baccyflap.com/noai" target="_blank" rel="noreferrer">
+                <img alt="UFP Webring" src={noai} style={{ height: '24px', width: 'auto', display: 'block' }} />
+              </a>
+              <a href="https://baccyflap.com/noai/?nxt&s=ayh">&rarr;</a>
+            </div>
           </div>
         </GlassSurface>
       </div>
