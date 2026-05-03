@@ -5,7 +5,6 @@ import Background2 from './Background2.tsx'
 import Footer from './Footer.tsx'
 import FastfetchDisplay from './FastfetchDisplay'
 import ProjsWidget from './ProjsWidget.tsx'
-import WebringsMenu from './webringsMenu.tsx'
 
 function App() {
   return (
