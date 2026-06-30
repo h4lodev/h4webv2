@@ -6,7 +6,7 @@ function Header() {
   return (
     <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', paddingTop: '1rem' }}>
       <GlassSurface 
-        width={450} 
+        width={550} 
         height={50}
         borderRadius={50}
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -20,6 +20,7 @@ function Header() {
         <a href="#home" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ home ]</a>
         <a href="#about" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ about ]</a>
         <a href="#projs" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ projs ]</a>
+        <a href="https://store.h4lo.ca" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ store ]</a>
         <a href="https://github.com/h4lodev/h4webv2" style={{ color: 'white', margin: 10, fontSize: '1rem', textDecoration: 'none' }}>[ code ]</a>
       </GlassSurface>
     </div>
