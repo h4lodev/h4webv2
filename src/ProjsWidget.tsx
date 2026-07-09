@@ -9,16 +9,16 @@ function ProjsWidget(){
     return (
         <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <GlassSurface 
-                width="auto " 
-                height={840}
+                width="clamp(300px, 95vw, 1000px)" 
+                height="clamp(400px, 85vh, 840px)"
                 borderRadius={50}
-                style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: '1000px'  }}
+                style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: '1000px', overflowY: 'auto'   }}
                 className="projswidget1"
             >
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
                     <GlassSurface 
-                        width={300} 
-                        height={380}
+                        width="clamp(140px, 24vw, 300px)" 
+                        height="clamp(180px, 32vw, 380px)"
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
@@ -26,15 +26,15 @@ function ProjsWidget(){
                             <img
                                 src={unlabeled}
                                 alt="unlabeled1"
-                                className="h-50 w-50 rounded-2xl" 
+                                className="rounded-2xl" style={{ width: "clamp(90px, 18vw, 200px)", height: "clamp(90px, 18vw, 200px)", objectFit: "cover" }} 
                             />
                             <p style={{ color: 'white', fontSize: '2rem' }}>NONAME</p>
                         </div>
                     </GlassSurface>
 
                     <GlassSurface 
-                        width={300} 
-                        height={380}
+                        width="clamp(140px, 24vw, 300px)" 
+                        height="clamp(180px, 32vw, 380px)"
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
@@ -42,15 +42,15 @@ function ProjsWidget(){
                             <img
                                 src={unlabeled}
                                 alt="unlabeled2"
-                                className="h-50 w-50 rounded-2xl" 
+                                className="rounded-2xl" style={{ width: "clamp(90px, 18vw, 200px)", height: "clamp(90px, 18vw, 200px)", objectFit: "cover" }} 
                             />
                             <p style={{ color: 'white', fontSize: '2rem' }}>NONAME</p>
                         </div>
                     </GlassSurface>
                     
                     <GlassSurface 
-                        width={300} 
-                        height={380}
+                        width="clamp(140px, 24vw, 300px)" 
+                        height="clamp(180px, 32vw, 380px)"
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
@@ -58,15 +58,15 @@ function ProjsWidget(){
                             <img
                                 src={knewher}
                                 alt="knewher"
-                                className="h-50 w-50 rounded-2xl" 
+                                className="rounded-2xl" style={{ width: "clamp(90px, 18vw, 200px)", height: "clamp(90px, 18vw, 200px)", objectFit: "cover" }} 
                             />
                             <p style={{ color: 'white', fontSize: '2rem' }}>Spotify</p>
                         </div>
                     </GlassSurface>
 
                     <GlassSurface 
-                        width={300} 
-                        height={380}
+                        width="clamp(140px, 24vw, 300px)" 
+                        height="clamp(180px, 32vw, 380px)"
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
@@ -74,15 +74,15 @@ function ProjsWidget(){
                             <img
                                 src={hv}
                                 alt="voidheart"
-                                className="h-50 w-50 rounded-2xl" 
+                                className="rounded-2xl" style={{ width: "clamp(90px, 18vw, 200px)", height: "clamp(90px, 18vw, 200px)", objectFit: "cover" }} 
                             />
                             <p style={{ color: 'white', fontSize: '2rem' }}>Voidheart</p>
                         </div>
                     </GlassSurface>
 
                     <GlassSurface 
-                        width={300} 
-                        height={380}
+                        width="clamp(140px, 24vw, 300px)" 
+                        height="clamp(180px, 32vw, 380px)"
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
@@ -90,15 +90,15 @@ function ProjsWidget(){
                             <img
                                 src={ruination}
                                 alt="robloxgame"
-                                className="h-50 w-50 rounded-2xl" 
+                                className="rounded-2xl" style={{ width: "clamp(90px, 18vw, 200px)", height: "clamp(90px, 18vw, 200px)", objectFit: "cover" }} 
                             />
                             <p style={{ color: 'white', fontSize: '2rem' }}>Roblox (old)</p>
                         </div>
                     </GlassSurface>
                     
                     <GlassSurface 
-                        width={300} 
-                        height={380}
+                        width="clamp(140px, 24vw, 300px)" 
+                        height="clamp(180px, 32vw, 380px)"
                         borderRadius={50}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                     >
@@ -106,7 +106,7 @@ function ProjsWidget(){
                             <img
                                 src={eyes}
                                 alt="vseyes"
-                                className="h-50 w-50 rounded-2xl" 
+                                className="rounded-2xl" style={{ width: "clamp(90px, 18vw, 200px)", height: "clamp(90px, 18vw, 200px)", objectFit: "cover" }} 
                             />
                             <p style={{ color: 'white', fontSize: '2rem' }}>Eyes</p>
                         </div>

@@ -13,25 +13,22 @@ const FastfetchDisplay: React.FC = () => {
 
     return (
     <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-        <p className="">
+        <div>
             <GlassSurface 
-              width="auto" 
+              width="clamp(300px, 90vw, 800px)" 
               height="auto"
               borderRadius={50}
               style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-              className="fastfetch max-h-[480px]"
+              className="fastfetch max-h-[85vh] overflow-y-auto"
             >
-            <div>
 
-            </div>
-
-            <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}> 
-                <pre className="text-left text-orange-400 p-6 rounded-lg font-mono text-sm shadow-2xl overflow-x-auto">
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
+                <pre className="text-left text-orange-400 p-6 rounded-lg font-mono shadow-2xl overflow-x-auto" style={{ fontSize: 'clamp(0.5rem, 1.6vw, 0.875rem)', lineHeight: 1.3, margin: 0 }}>
                   {content}
                 </pre>
             </div>
             </GlassSurface>
-        </p>
+        </div>
     </div>
     );
 

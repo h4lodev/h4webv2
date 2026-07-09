@@ -19,23 +19,25 @@ function App() {
 
         <section id="home" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
-            <p style={{ color: 'rgb(240,240,240)', fontSize: '130px', margin: '0.5rem 0' }}>Hi, I'm</p>
+            <p style={{ color: 'rgb(240,240,240)', fontSize: 'clamp(2.5rem, 10vw, 130px)', margin: '0.5rem 0' }}>Hi, I'm</p>
             <GradientText
               colors={["#F4C000","#ff9900"]}
               animationSpeed={6}
               showBorder={false}
-              className="text-[130px] overflow-visible justify-center"
+              className="overflow-visible justify-center"
+              style={{ fontSize: 'clamp(2.5rem, 10vw, 130px)' }}
             >
               H4LO
             </GradientText>
           </div>
-          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
-            <p style={{ color: 'rgb(240,240,240)', fontSize: '130px', margin: '0.5rem 0' }}>And I make</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', maxWidth: '95vw' }}>
+            <p style={{ color: 'rgb(240,240,240)', fontSize: 'clamp(2.5rem, 10vw, 130px)', margin: '0.5rem 0' }}>And I make</p>
             <GradientText
               colors={["#F4C000","#F49400"]}
               animationSpeed={6}
               showBorder={false}
-              className="text-[130px] overflow-visible justify-center"
+              className="overflow-visible justify-center"
+              style={{ fontSize: 'clamp(2.5rem, 10vw, 130px)' }}
             >
               Things.
             </GradientText>
@@ -64,5 +66,3 @@ function App() {
 }
 
 export default App;
-
-

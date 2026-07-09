@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { motion, useMotionValue, useAnimationFrame, useTransform } from 'motion/react';
-import type { ReactNode } from 'react';
+import type { ReactNode, CSSProperties } from 'react';
 
 interface GradientTextProps {
   children: ReactNode;
@@ -11,6 +11,7 @@ interface GradientTextProps {
   direction?: 'horizontal' | 'vertical' | 'diagonal';
   pauseOnHover?: boolean;
   yoyo?: boolean;
+  style?: CSSProperties;
 }
 
 export default function GradientText({
@@ -21,7 +22,8 @@ export default function GradientText({
   showBorder = false,
   direction = 'horizontal',
   pauseOnHover = false,
-  yoyo = true
+  yoyo = true,
+  style = {}
 }: GradientTextProps) {
   const [isPaused, setIsPaused] = useState(false);
   const progress = useMotionValue(0);
@@ -120,7 +122,7 @@ export default function GradientText({
       )}
       <motion.div
         className="block w-full text-center relative z-2 text-transparent bg-clip-text"
-        style={{ ...gradientStyle, backgroundPosition, WebkitBackgroundClip: 'text' }}
+        style={{ ...gradientStyle, backgroundPosition, WebkitBackgroundClip: 'text', ...style }}
       >
         {children}
       </motion.div>

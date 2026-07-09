@@ -28,12 +28,12 @@ const Footer: React.FC = () => {
 
       <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', paddingBottom: '1rem' }}>
         <GlassSurface
-          width={460}
-          height={50}
+          width="clamp(260px, 90vw, 460px)"
+          height="clamp(40px, 8vw, 50px)"
           borderRadius={50}
           className="header"
         >
-          <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'left', alignItems: 'flex-start', paddingBottom: '0.6rem', paddingLeft: '1rem' }}>
+          <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'left', alignItems: 'flex-start', paddingBottom: '0.6rem', paddingLeft: '1rem', fontSize: 'clamp(0.65rem, 2vw, 1rem)', whiteSpace: 'nowrap' }}>
             &copy; {new Date().getFullYear()} H4LO Technologies. All Rights Reserved
           </div>
 

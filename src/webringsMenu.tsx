@@ -8,10 +8,10 @@ import rwg from './assets/img/webOsu.png'
 const WebringsMenu: React.FC = () => {
   return (
     <footer className="text-white mt-10">
-      <div style={{ position: 'fixed', bottom: 0, left: 200, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', padding: '4rem' }}>
+      <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', padding: 'clamp(1rem, 6vw, 4rem)' }}>
         <GlassSurface
-          width={120}
-          height={180}
+          width="clamp(90px, 25vw, 120px)"
+          height="clamp(140px, 35vw, 180px)"
           borderRadius={20}
           className="webringsMenu"
         >
