@@ -1,15 +1,15 @@
              .',;::::;,'.                 h4lo@fedora
          .';:cccccccccccc:;,.             ---------
-      .;cccccccccccccccccccccc;.          OS: Fedora Linux 43 (Workstation Edition) x86_64
-    .:cccccccccccccccccccccccccc:.        Kernel: Linux 6.18.13-200.fc43.x86_64
-  .;ccccccccccccc;.:dddl:.;ccccccc;.      Packages: 3242 (rpm), 39 (flatpak)
- .:ccccccccccccc;OWMKOOXMWd;ccccccc:.     Shell: bash 5.3.0
-.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.    DE: KDE Plasma 6.6.1
+      .;cccccccccccccccccccccc;.          OS: Fedora Linux 44 (Workstation Edition) x86_64
+    .:cccccccccccccccccccccccccc:.        Kernel: Linux 7.0.14-201.fc44.x86_64
+  .;ccccccccccccc;.:dddl:.;ccccccc;.      Packages: 55 (flatpak), 4030 (rpm)
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.     Shell: bash 5.3.9
+.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.    DE: KDE Plasma 6.7.1
 ,cccccccccccccc;MMM.;cc;;WW:;cccccccc,    WM: KWin (Wayland)
-:cccccccccccccc;MMM.;cccccccccccccccc:    Terminal: Ptyxis 49.3
+:cccccccccccccc;MMM.;cccccccccccccccc:    Terminal: Ptyxis 50.1
 :ccccccc;oxOOOo;MMM000k.;cccccccccccc:    CPU: AMD Ryzen 9 7900X (24) @ 5.74 GHz
 cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;    GPU 1: NVIDIA GeForce RTX 4070 [Discrete]
-ccccc;XMO';cccc;MMM.;cccccccccccccccc'    Memory: 20.24 GiB / 61.93 GiB (33%)
+ccccc;XMO';cccc;MMM.;cccccccccccccccc'    Memory: 11.29 GiB / 61.93 GiB (18%)
 ccccc;MMo;ccccc;MMW.;ccccccccccccccc;     Locale: en_CA.UTF-8
 ccccc;0MNc.ccc.xMMd;ccccccccccccccc;
 cccccc;dNMWXXXWM0:;cccccccccccccc:,       I am an indie multi-genre creator!
