@@ -42,6 +42,12 @@ function App() {
               Things.
             </GradientText>
           </div>
+          <p style={{ color: 'rgba(240, 240, 240, 0.68)', fontSize: 'clamp(1.5rem, 1vw, 10px)', margin: '1rem 0' }}>
+            <a href="https://webring.h4lo.ca" style={{ color: 'inherit', textDecoration: 'underline' }}>
+              Join my webring!
+            </a>
+          </p>
+
         </section>
 
         <section id="about" style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

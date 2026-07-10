@@ -1,5 +1,6 @@
 import React from 'react';
 import GlassSurface from './components/GlassSurface'
+import h4ring from './assets/logo.svg'
 import catppuccin from './assets/img/catppucin.png'
 import ufp from './assets/img/ultrafastparrot.gif'
 import noai from './assets/img/noai.png'
@@ -16,6 +17,14 @@ const WebringsMenu: React.FC = () => {
           className="webringsMenu"
         >
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '8px', width: '100%', height: '100%', }}>
+            {/* H4RING set */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <a href="https://webring.h4lo.ca/h4lo/previous">&larr;</a>
+              <a href="https://webring.h4lo.ca" target="_blank" rel="noreferrer">
+                <img alt="H4RING" src={h4ring} style={{ height: '18px', width: '24px', display: 'block' }} />
+              </a>
+              <a href="https://webring.h4lo.ca/h4lo/next">&rarr;</a>
+            </div>
             {/* ctp webring set */}
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
               <a href="https://ctp-webr.ing/h4lo/previous">&larr;</a>
