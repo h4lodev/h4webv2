@@ -5,14 +5,15 @@ import catppuccin from './assets/img/catppucin.png'
 import ufp from './assets/img/ultrafastparrot.gif'
 import noai from './assets/img/noai.png'
 import rwg from './assets/img/webOsu.png'
+import pl from './assets/img/placeholderwebring.png'
 
 const WebringsMenu: React.FC = () => {
   return (
     <footer className="text-white mt-10">
       <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', padding: 'clamp(1rem, 6vw, 4rem)' }}>
         <GlassSurface
-          width="clamp(90px, 25vw, 120px)"
-          height="clamp(140px, 35vw, 180px)"
+          width="clamp(90px, 25vw, 220px)"
+          height="clamp(140px, 35vw, 220px)"
           borderRadius={20}
           className="webringsMenu"
         >
@@ -25,6 +26,16 @@ const WebringsMenu: React.FC = () => {
               </a>
               <a href="https://webring.h4lo.ca/h4lo/next">&rarr;</a>
             </div>
+
+            {/* placeholderwebring webring set */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <a href="https://gideon.sh">&larr;</a>
+              <a href="https://webring.phthallo.com" target="_blank" rel="noreferrer">
+                <img alt="Placeholder Webring" src={pl} style={{ height: '24px', width: 'auto', display: 'block' }} />
+              </a>
+              <a href="https://pgdvault.vercel.app/">&rarr;</a>
+            </div>
+
             {/* ctp webring set */}
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
               <a href="https://ctp-webr.ing/h4lo/previous">&larr;</a>
