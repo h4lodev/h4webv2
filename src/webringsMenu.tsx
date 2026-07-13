@@ -12,7 +12,7 @@ const WebringsMenu: React.FC = () => {
     <footer className="text-white mt-10">
       <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', zIndex: 20, display: 'flex', justifyContent: 'center', alignItems: 'flex-start', padding: 'clamp(1rem, 6vw, 4rem)' }}>
         <GlassSurface
-          width="clamp(90px, 25vw, 220px)"
+          width="clamp(90px, 25vw, 120px)"
           height="clamp(140px, 35vw, 220px)"
           borderRadius={20}
           className="webringsMenu"
