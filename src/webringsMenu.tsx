@@ -7,6 +7,7 @@ import noai from './assets/img/noai.png'
 import rwg from './assets/img/webOsu.png'
 import pl from './assets/img/placeholderwebring.png'
 
+{/*you need to fix the sizing issue on mobile for this*/}
 const WebringsMenu: React.FC = () => {
   return (
     <footer className="text-white mt-10">
