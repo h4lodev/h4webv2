@@ -5,4 +5,4 @@ to run this in dev mode, git clone this repo and run
 then
 ``npm run dev``
 
-This page doesn't support mobile... yet...
+This page kinda supports mobile, working on it
